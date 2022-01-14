@@ -7,7 +7,17 @@ import NProgress from 'nprogress'
 import Router from 'next/router'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <ChakraProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ChakraProvider>
+      </Head>
+    </>
+  )
 }
 
 export default MyApp
