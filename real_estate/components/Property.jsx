@@ -29,6 +29,7 @@ const Property = ({
       paddingTop='0'
       justifyContent='flex-start'
       cursor='pointer'
+      marginLeft='20'
     >
       <Box>
         <Image
