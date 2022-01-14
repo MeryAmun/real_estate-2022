@@ -9,13 +9,12 @@ import Router from 'next/router'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <ChakraProvider>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </ChakraProvider>
-      </Head>
+      <Head></Head>
+      <ChakraProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ChakraProvider>
     </>
   )
 }
