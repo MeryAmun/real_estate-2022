@@ -3,11 +3,8 @@ import { FaBath, FaBed } from 'react-icons/fa'
 import { baseUrl, fetchApi } from '../../utils/fetchApi'
 
 import { BsGridFill } from 'react-icons/bs'
-import DefaultImage from '../assets/images/house.jpg'
 import { GoVerified } from 'react-icons/go'
-import Image from 'next/image'
 import { ImageScrollbar } from '../../components/ImageScrollbar'
-import Link from 'next/link'
 import millify from 'millify'
 
 const PropertyDetails = ({
